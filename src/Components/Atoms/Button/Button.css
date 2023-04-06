@@ -1,0 +1,35 @@
+.btn-component {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 565px;
+    height: 60px;
+    background: #D0FFC8;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.icon-front {
+    display: flex;
+    margin-top: auto;
+}
+
+@media (max-width: 991px) {
+    .btn-component {
+        width: 565px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    .btn-component {
+        width: 366.46px;
+        height: 54px;
+    }
+}
