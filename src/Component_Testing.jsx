@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Components/Atoms/Button/Index';
-import User from './Images/Vector/User';
+import User from './Statics/Images/Vector/User';
 
 export default function ComponentTesting() {
   return (
