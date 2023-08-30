@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import RootLayout from './layout';
+import RootLayout from '../../../layout';
 import './globals.css';
 
 export default function AuthenticationPage6() {
@@ -7,14 +7,16 @@ export default function AuthenticationPage6() {
     <RootLayout>
       <main className="flex flex-col items-center justify-center min-h-screen bg-white">
         <div className="w-full px-4 md:px-8 py-8 md:py-12">
-          <Image
-            src="/Group 51.png"
-            alt="Logo"
-            width={143}
-            height={33}
-            className="mb-4 md:mb-8"
-          />
-
+          <div className="flex">
+            <Image
+              src="/cohort 10.svg"
+              alt="Logo"
+              width={31}
+              height={29}
+              className="mb-4 md:mb-8"
+            />
+            <p className="font-extrabold">COHORT</p>
+          </div>
           <h1 className="text-2xl md:text-4xl font-extrabold text-center mb-2 md:mb-4">
             Verify your account
           </h1>
@@ -41,6 +43,15 @@ export default function AuthenticationPage6() {
             </p>
           </div>
         </div>
+        <div className='block md:hidden'>
+        <Image
+        alt='stripes'
+          src='/cohort 9.svg'
+          width={70}
+          height={65}
+          className='absolute bottom-0 left-0'
+        />
+      </div>
       </main>
     </RootLayout>
   );
