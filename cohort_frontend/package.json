@@ -10,7 +10,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "autoprefixer": "10.4.15",
+    "autoprefixer": "^10.4.15",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.15",
     "next": "13.4.15",
