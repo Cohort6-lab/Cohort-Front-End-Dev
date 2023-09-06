@@ -2,8 +2,8 @@ import React from 'react'
 import RootLayout from '../../../layout'
 import '../globals.css'
 import Image from 'next/image'
-import Input from '@/app/components/auth/InputFields/Input'
-import AuthButton from '@/app/components/auth/Buttons/AuthButton'
+import Input from '../InputFields/Input'
+import AuthButton from '../Buttons/AuthButton'
 
 export default function Signup() {
   return (
