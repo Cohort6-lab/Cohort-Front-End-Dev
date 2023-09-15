@@ -1,5 +1,4 @@
 import React from 'react';
-
 const AuthButton = ({ text, iconClass, onClick, customClass }) => {
   return (
     <div>
