@@ -10,12 +10,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-<<<<<<< HEAD
-    "autoprefixer": "^10.4.15",
-=======
-    "@next/swc-linux-x64-gnu": "^13.4.19",
     "autoprefixer": "10.4.15",
->>>>>>> origin/AuthenticationPage6
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.15",
     "next": "13.4.15",
