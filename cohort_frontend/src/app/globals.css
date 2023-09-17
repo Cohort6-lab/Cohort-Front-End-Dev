@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.center-placeholder::-webkit-input-placeholder{
+  text-align: center;
+  font-size: smaller;
+}
+.center-placeholder::-moz-placeholder{
+  text-align: center;
+}
+.center-placeholder:focus{
+  position: relative;
+}
+.center-placeholder:focus::placeholder {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-small;
+  margin: 2%;
+
+}
